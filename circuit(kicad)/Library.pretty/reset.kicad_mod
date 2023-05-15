@@ -1,0 +1,16 @@
+(footprint "reset" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp d720ae0c-a909-4395-b8ef-3d9969fbb9db)
+  )
+  (fp_text value "reset" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp edd55891-68d9-4344-b6ee-c0e2e3c80aeb)
+  )
+  (fp_text user "reset" (at -3 -1 unlocked) (layer "F.SilkS")
+      (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
+    (tstamp 677f889d-d336-4204-ab33-caf78d0b5bed)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp e918fde6-b750-4fa7-be0b-5c5b343d78c5))
+)
